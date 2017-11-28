@@ -150,8 +150,10 @@ function checkmisday(name,alldays,defaultd){
                 }
             })
             this.modday = octopus.getmisday();
-            var ghyji = $(".missed-col");
-            ghyji.text(this.modday)
+
+            var ghyji = $(misday)
+            ghyji.text("11")
+            //写入有错，这里会覆盖全部。 记得修改
 
           //$(hjk).find(".missed-col").text(octopus.getmisday());
 
